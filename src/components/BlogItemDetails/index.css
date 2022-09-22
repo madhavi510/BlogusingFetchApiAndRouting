@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.blogDetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-content {
+  font-size: 20px;
+  font-family: 'roboto';
+  margin-left: 10px;
+}
+.blog-author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.blogDetails-image {
+  height: 220px;
+  width: 380px;
+  border-radius: 10px;
+}
+.content-blog {
+  font-size: 18px;
+  font-family: 'roboto';
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: start;
+}
